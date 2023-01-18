@@ -1,0 +1,9 @@
+body {
+  background-color: #09090a;
+  color: white;
+
+  display: grid;
+  place-items: center;
+
+  height: 100vh;
+}
