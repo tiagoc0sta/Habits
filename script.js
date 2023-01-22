@@ -7,7 +7,7 @@ form.addEventListener('change', save);
 
 function add() {
   const today = new Date().toLocaleDateString('pt-br').slice(0, -5);
-  //const today = '06/05';
+  //const today = '22/01';
   const dayExists = nlwSetup.dayExists(today); //boolean - true or false
 
   if (dayExists) {
